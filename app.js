@@ -23,6 +23,6 @@ app.get('*', function(req, res){
 
 
 //alternatively -> npm start
-app.listen(8080, () => console.log('ArtDapp listening on port 8080!'))
+//app.listen(8080, () => console.log('ArtDapp listening on port 8080!'))
 
 module.exports = app;
