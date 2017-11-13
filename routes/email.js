@@ -11,9 +11,6 @@ var transporter = nodemailer.createTransport({
   }
 });
 
-
-
-
 /* GET home page. */
 router.post('/', function(req, res, next) {
   var about= req.body.email;
